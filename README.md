@@ -15,4 +15,11 @@ ReverseProxy in golang
 	./ReverseProxy_windows_amd64.exe -l "0.0.0.0:8081" -r "https://www.baidu.com"
 
 	Listening on 0.0.0.0:8081, forwarding to https://www.baidu.com
+	
+	
+	### JRebel
+	
+	./ReverseProxy_windows_amd64.exe -l "0.0.0.0:8088" -r "http://jrebel.qekang.com"
+
+	Listening on 0.0.0.0:8088, forwarding to http://jrebel.qekang.com
 
